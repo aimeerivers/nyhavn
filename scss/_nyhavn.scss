@@ -8,7 +8,7 @@ $house13width: 587px;
 $house15width: 519px;
 $house17width: 1076px;
 
-$numberOfHouses: 9;
+$numberOfHouses: 1;
 
 body {
   background-color: lightblue;
@@ -19,14 +19,14 @@ body {
   font-weight: bold;
   width: (
     (10 * $numberOfHouses) +
-    $house1width +
-    $house3width +
-    $house5width +
-    $house7width +
-    $house9width +
-    $house11width +
-    $house13width +
-    $house15width +
+    // $house1width +
+    // $house3width +
+    // $house5width +
+    // $house7width +
+    // $house9width +
+    // $house11width +
+    // $house13width +
+    // $house15width +
     $house17width
   ) * $zoom;
 }

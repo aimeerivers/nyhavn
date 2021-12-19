@@ -3,9 +3,9 @@ body {
 }
 
 #nyhavn {
-  height: 446.4px;
+  height: 1488px;
   font-weight: bold;
-  width: 2130.9px;
+  width: 1086px;
 }
 
 .house {
@@ -16,47 +16,47 @@ body {
 }
 
 #house1 {
-  width: 332.4px;
+  width: 1108px;
   background-image: url("../images/house1.png");
 }
 
 #house3 {
-  width: 244.5px;
+  width: 815px;
   background-image: url("../images/house3.png");
 }
 
 #house5 {
-  width: 254.4px;
+  width: 848px;
   background-image: url("../images/house5.png");
 }
 
 #house7 {
-  width: 227.1px;
+  width: 757px;
   background-image: url("../images/house7.png");
 }
 
 #house9 {
-  width: 173.4px;
+  width: 578px;
   background-image: url("../images/house9.png");
 }
 
 #house11 {
-  width: 217.5px;
+  width: 725px;
   background-image: url("../images/house11.png");
 }
 
 #house13 {
-  width: 176.1px;
+  width: 587px;
   background-image: url("../images/house13.png");
 }
 
 #house15 {
-  width: 155.7px;
+  width: 519px;
   background-image: url("../images/house15.png");
 }
 
 #house17 {
-  width: 322.8px;
+  width: 1076px;
   background-image: url("../images/house17.png");
 }
 
