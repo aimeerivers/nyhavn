@@ -103,5 +103,15 @@ body {
   height: 105px;
   background-image: linear-gradient(to bottom, #2a1c12 0%, #412f33 10%, #2f2127 10%, #2f2127 12%, #33262c 12%, #33262c 100%);
 }
+#house17 .wall .sign {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  top: 344px;
+  left: 90px;
+  font-size: 79px;
+  letter-spacing: 16px;
+  color: #9a2232;
+  text-shadow: 2px -2px 2px #f5666a, -2px 2px 2px #f5666a, -2px 5px 5px #280b0a;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -73,5 +73,17 @@ $house17rooftile: rgb(138, 80, 78);
         rgb(51, 38, 44) 100%
       );
     }
+
+    .sign {
+      font-family: "Times New Roman", Times, serif;
+      font-weight: bold;
+      top: 344px * $zoom;
+      left: 90px * $zoom;
+      font-size: 79px * $zoom;
+      letter-spacing: 16px * $zoom;
+      color: rgb(154, 34, 50);
+      text-shadow: 2px * $zoom -2px * $zoom 2px * $zoom rgb(245, 102, 106),
+        -2px * $zoom 2px * $zoom 2px * $zoom rgb(245, 102, 106), -2px * $zoom 5px * $zoom 5px * $zoom rgb(40, 11, 10);
+    }
   }
 }
