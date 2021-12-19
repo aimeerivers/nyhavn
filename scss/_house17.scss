@@ -329,7 +329,7 @@ $house17inside: rgb(0, 6, 18);
         top: 649px * $zoom;
         left: 25px * $zoom;
         width: 79px * $zoom;
-        height: 75px * $zoom;
+        height: 70px * $zoom;
         border: 5px * $zoom solid rgb(4, 2, 13);
         background-color: rgb(68, 58, 51);
 
@@ -357,6 +357,24 @@ $house17inside: rgb(0, 6, 18);
         height: 93px * $zoom;
         background-color: rgb(12, 11, 22);
       }
+    }
+
+    .door3 {
+      z-index: 1;
+      top: 655px * $zoom;
+      left: 507px * $zoom;
+      width: 97px * $zoom;
+      height: 84px * $zoom;
+      background-color: rgb(12, 11, 22);
+    }
+
+    .door4 {
+      z-index: 1;
+      top: 646px * $zoom;
+      left: 647px * $zoom;
+      width: 84px * $zoom;
+      height: 93px * $zoom;
+      background-color: rgb(12, 11, 22);
     }
   }
 }

@@ -65,7 +65,6 @@ body {
 
 #house17 {
   width: 1076px;
-  background-image: url("../images/house17.png");
 }
 #house17 .roof {
   top: 412px;
@@ -225,7 +224,7 @@ body {
   top: 649px;
   left: 25px;
   width: 79px;
-  height: 75px;
+  height: 70px;
   border: 5px solid #04020d;
   background-color: #443a33;
 }
@@ -247,6 +246,22 @@ body {
   top: 646px;
   left: 152px;
   width: 83px;
+  height: 93px;
+  background-color: #0c0b16;
+}
+#house17 .wall .door3 {
+  z-index: 1;
+  top: 655px;
+  left: 507px;
+  width: 97px;
+  height: 84px;
+  background-color: #0c0b16;
+}
+#house17 .wall .door4 {
+  z-index: 1;
+  top: 646px;
+  left: 647px;
+  width: 84px;
   height: 93px;
   background-color: #0c0b16;
 }
