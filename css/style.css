@@ -3,9 +3,9 @@ body {
 }
 
 #nyhavn {
-  height: 744px;
+  height: 1488px;
   font-weight: bold;
-  width: 807.5px;
+  width: 1615px;
 }
 
 .house {
@@ -20,64 +20,64 @@ body {
 }
 
 #house1 {
-  width: 554px;
+  width: 1108px;
   background-image: url("../images/house1.png");
 }
 
 #house3 {
-  width: 407.5px;
+  width: 815px;
   background-image: url("../images/house3.png");
 }
 
 #house5 {
-  width: 424px;
+  width: 848px;
   background-image: url("../images/house5.png");
 }
 
 #house7 {
-  width: 378.5px;
+  width: 757px;
   background-image: url("../images/house7.png");
 }
 
 #house9 {
-  width: 289px;
+  width: 578px;
   background-image: url("../images/house9.png");
 }
 
 #house11 {
-  width: 362.5px;
+  width: 725px;
   background-image: url("../images/house11.png");
 }
 
 #house13 {
-  width: 293.5px;
+  width: 587px;
   background-image: url("../images/house13.png");
 }
 
 #house15 {
-  width: 259.5px;
+  width: 519px;
   background-image: url("../images/house15.png");
 }
 
 #house17 {
-  width: 538px;
+  width: 1076px;
   background-image: url("../images/house17.png");
 }
 #house17 .roof {
-  top: 206px;
-  width: 391.5px;
-  height: 120px;
-  border: 1.5px solid #492a29;
+  top: 412px;
+  width: 783px;
+  height: 240px;
+  border: 3px solid #492a29;
   border-left: 0;
   border-bottom: 0;
   background-color: #8a504e;
-  background-image: linear-gradient(to right, #492a29 0px, #492a29 1.5px, transparent 1.5px, transparent 9px), radial-gradient(circle at top, #693d3c 0px, #a76664 1px, #693d3c 5.5px, #492a29 6px, #492a29 7.5px, transparent 7.5px);
-  background-size: 9px 7.5px;
+  background-image: linear-gradient(to right, #492a29 0px, #492a29 3px, transparent 3px, transparent 18px), radial-gradient(circle at top, #693d3c 0px, #a76664 2px, #693d3c 11px, #492a29 12px, #492a29 15px, transparent 15px);
+  background-size: 18px 15px;
 }
 #house17 .gutter {
-  top: 206px;
-  width: 393px;
-  height: 4.5px;
+  top: 412px;
+  width: 786px;
+  height: 9px;
   background-image: linear-gradient(to bottom, #454545, #131216);
 }
 
