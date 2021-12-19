@@ -1,4 +1,5 @@
 $house17rooftile: rgb(138, 80, 78);
+$house17windowpane: rgb(17, 21, 26);
 
 #house17 {
   width: $house17width * $zoom;
@@ -72,6 +73,68 @@ $house17rooftile: rgb(138, 80, 78);
         rgb(51, 38, 44) 12%,
         rgb(51, 38, 44) 100%
       );
+    }
+
+    .window {
+      width: 79px * $zoom;
+      height: 110px * $zoom;
+      background-color: rgb(91, 125, 144);
+      background-image: linear-gradient(
+          to bottom,
+          $house17windowpane 0px,
+          $house17windowpane 8px * $zoom,
+          transparent 8px * $zoom,
+          transparent 33px * $zoom,
+          $house17windowpane 33px * $zoom,
+          $house17windowpane 41px * $zoom,
+          transparent 41px * $zoom,
+          transparent 72px * $zoom,
+          $house17windowpane 72px * $zoom,
+          $house17windowpane 75px * $zoom,
+          transparent 75px * $zoom,
+          transparent 102px * $zoom,
+          $house17windowpane 102px * $zoom,
+          $house17windowpane
+        ),
+        linear-gradient(
+          to right,
+          $house17windowpane 0px,
+          $house17windowpane 8px * $zoom,
+          transparent 8px * $zoom,
+          transparent 36px * $zoom,
+          $house17windowpane 36px * $zoom,
+          $house17windowpane 44px * $zoom,
+          transparent 44px * $zoom,
+          transparent 71px * $zoom,
+          $house17windowpane 71px * $zoom,
+          $house17windowpane
+        );
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(3),
+      &:nth-child(4),
+      &:nth-child(5),
+      &:nth-child(6) {
+        top: 8px;
+      }
+      &:nth-child(1) {
+        left: 45px;
+      }
+      &:nth-child(2) {
+        left: 167px;
+      }
+      &:nth-child(3) {
+        left: 287px;
+      }
+      &:nth-child(4) {
+        left: 405px;
+      }
+      &:nth-child(5) {
+        left: 524px;
+      }
+      &:nth-child(6) {
+        left: 645px;
+      }
     }
 
     .sign {

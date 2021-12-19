@@ -103,6 +103,33 @@ body {
   height: 105px;
   background-image: linear-gradient(to bottom, #2a1c12 0%, #412f33 10%, #2f2127 10%, #2f2127 12%, #33262c 12%, #33262c 100%);
 }
+#house17 .wall .window {
+  width: 79px;
+  height: 110px;
+  background-color: #5b7d90;
+  background-image: linear-gradient(to bottom, #11151a 0px, #11151a 8px, transparent 8px, transparent 33px, #11151a 33px, #11151a 41px, transparent 41px, transparent 72px, #11151a 72px, #11151a 75px, transparent 75px, transparent 102px, #11151a 102px, #11151a), linear-gradient(to right, #11151a 0px, #11151a 8px, transparent 8px, transparent 36px, #11151a 36px, #11151a 44px, transparent 44px, transparent 71px, #11151a 71px, #11151a);
+}
+#house17 .wall .window:nth-child(1), #house17 .wall .window:nth-child(2), #house17 .wall .window:nth-child(3), #house17 .wall .window:nth-child(4), #house17 .wall .window:nth-child(5), #house17 .wall .window:nth-child(6) {
+  top: 8px;
+}
+#house17 .wall .window:nth-child(1) {
+  left: 45px;
+}
+#house17 .wall .window:nth-child(2) {
+  left: 167px;
+}
+#house17 .wall .window:nth-child(3) {
+  left: 287px;
+}
+#house17 .wall .window:nth-child(4) {
+  left: 405px;
+}
+#house17 .wall .window:nth-child(5) {
+  left: 524px;
+}
+#house17 .wall .window:nth-child(6) {
+  left: 645px;
+}
 #house17 .wall .sign {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
