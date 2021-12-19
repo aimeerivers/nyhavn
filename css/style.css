@@ -220,5 +220,35 @@ body {
   border: 8px solid #2c343b;
   background-image: radial-gradient(circle at center, #000612 0, #000612 20%, #2c343b 20%, #2c343b 24%, transparent 24%, transparent), linear-gradient(to bottom, transparent 0, transparent 48%, #2c343b 48%, #2c343b 52%, transparent 52%, transparent), linear-gradient(to right, transparent 0, transparent 49%, #2c343b 49%, #2c343b 51%, transparent 51%, transparent);
 }
+#house17 .wall .tattoo-ole .window2 {
+  z-index: 1;
+  top: 649px;
+  left: 25px;
+  width: 79px;
+  height: 75px;
+  border: 5px solid #04020d;
+  background-color: #443a33;
+}
+#house17 .wall .tattoo-ole .window2:nth-child(2) {
+  left: 273px;
+}
+#house17 .wall .tattoo-ole .window2 .sign2 {
+  display: inline-block;
+  width: 100%;
+  background-color: #a29e9e;
+  color: #20151e;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+#house17 .wall .tattoo-ole .door2 {
+  z-index: 1;
+  top: 646px;
+  left: 152px;
+  width: 83px;
+  height: 93px;
+  background-color: #0c0b16;
+}
 
 /*# sourceMappingURL=style.css.map */

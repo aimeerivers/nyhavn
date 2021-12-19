@@ -322,5 +322,41 @@ $house17inside: rgb(0, 6, 18);
       border-top: 0;
       border-bottom: 0;
     }
+
+    .tattoo-ole {
+      .window2 {
+        z-index: 1;
+        top: 649px * $zoom;
+        left: 25px * $zoom;
+        width: 79px * $zoom;
+        height: 75px * $zoom;
+        border: 5px * $zoom solid rgb(4, 2, 13);
+        background-color: rgb(68, 58, 51);
+
+        &:nth-child(2) {
+          left: 273px * $zoom;
+        }
+
+        .sign2 {
+          display: inline-block;
+          width: 100%;
+          background-color: rgb(162, 158, 158);
+          color: rgb(32, 21, 30);
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 10px * $zoom;
+          font-weight: bold;
+          text-align: center;
+        }
+      }
+
+      .door2 {
+        z-index: 1;
+        top: 646px * $zoom;
+        left: 152px * $zoom;
+        width: 83px * $zoom;
+        height: 93px * $zoom;
+        background-color: rgb(12, 11, 22);
+      }
+    }
   }
 }
