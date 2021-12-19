@@ -1,5 +1,6 @@
 body {
   background-image: linear-gradient(to bottom, #5998fe, #87cdf6 1426px, #2e3032 1426px, #454b51 1456px, #595f65);
+  background-repeat: repeat-x;
 }
 
 #nyhavn {
@@ -187,7 +188,7 @@ body {
 }
 #house17 .wall .window:nth-child(13), #house17 .wall .window:nth-child(14), #house17 .wall .window:nth-child(15), #house17 .wall .window:nth-child(16), #house17 .wall .window:nth-child(17) {
   top: 443px;
-  background-color: #000612;
+  background-color: #121315;
   height: 131px;
 }
 #house17 .wall .sign {
@@ -206,7 +207,7 @@ body {
   top: 501px;
   width: 86px;
   height: 178px;
-  background-color: #000612;
+  background-color: #121315;
   border: 8px solid #2c343b;
   border-top: 0;
   border-bottom: 0;
@@ -216,9 +217,9 @@ body {
   top: -58px;
   width: 86px;
   height: 42px;
-  background-color: #000612;
+  background-color: #121315;
   border: 8px solid #2c343b;
-  background-image: radial-gradient(circle at center, #000612 0, #000612 20%, #2c343b 20%, #2c343b 24%, transparent 24%, transparent), linear-gradient(to bottom, transparent 0, transparent 48%, #2c343b 48%, #2c343b 52%, transparent 52%, transparent), linear-gradient(to right, transparent 0, transparent 49%, #2c343b 49%, #2c343b 51%, transparent 51%, transparent);
+  background-image: radial-gradient(circle at center, #121315 0, #121315 20%, #2c343b 20%, #2c343b 24%, transparent 24%, transparent), linear-gradient(to bottom, transparent 0, transparent 48%, #2c343b 48%, #2c343b 52%, transparent 52%, transparent), linear-gradient(to right, transparent 0, transparent 49%, #2c343b 49%, #2c343b 51%, transparent 51%, transparent);
 }
 #house17 .wall .door::after {
   z-index: 1;
