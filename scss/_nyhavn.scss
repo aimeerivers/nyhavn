@@ -11,22 +11,27 @@ $house17width: 1076px;
 $numberOfHouses: 2;
 
 body {
-  background-color: lightblue;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(89, 152, 254),
+    rgb(135, 205, 246) 1426px * $zoom,
+    rgb(46, 48, 50) 1426px * $zoom,
+    rgb(69, 75, 81) 1456px * $zoom,
+    rgb(89, 95, 101)
+  );
 }
 
 #nyhavn {
   height: 1488px * $zoom;
   font-weight: bold;
   width: (
-    (10 * $numberOfHouses) +
-    // $house1width +
-    // $house3width +
-    // $house5width +
-    // $house7width +
-    // $house9width +
-    // $house11width +
-    // $house13width +
-    $house15width +
-    $house17width
-  ) * $zoom;
+      (10 * $numberOfHouses) + // $house1width +
+      // $house3width +
+      // $house5width +
+      // $house7width +
+      // $house9width +
+      // $house11width +
+      // $house13width +
+      $house15width + $house17width
+    ) * $zoom;
 }
