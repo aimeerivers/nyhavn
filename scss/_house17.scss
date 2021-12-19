@@ -17,14 +17,14 @@ $house17inside: rgb(0, 6, 18);
     background-color: $house17rooftile;
     background-image: linear-gradient(
         to right,
-        darken($house17rooftile, 20%) 0px,
+        darken($house17rooftile, 20%) 0,
         darken($house17rooftile, 20%) 3px * $zoom,
         transparent 3px * $zoom,
         transparent 18px * $zoom
       ),
       radial-gradient(
         circle at top,
-        darken($house17rooftile, 10%) 0px,
+        darken($house17rooftile, 10%) 0,
         lighten($house17rooftile, 10%) 2px * $zoom,
         darken($house17rooftile, 10%) 11px * $zoom,
         darken($house17rooftile, 20%) 12px * $zoom,
@@ -77,38 +77,31 @@ $house17inside: rgb(0, 6, 18);
     }
 
     .window {
-      width: 79px * $zoom;
-      height: 110px * $zoom;
+      width: 63px * $zoom;
+      height: 94px * $zoom;
       background-color: rgb(94, 112, 125);
+      border: 8px * $zoom solid $house17windowpane;
       background-image: linear-gradient(
           to bottom,
-          $house17windowpane 0px,
-          $house17windowpane 8px * $zoom,
-          transparent 8px * $zoom,
-          transparent 35px * $zoom,
+          transparent 0,
+          transparent 27px * $zoom,
+          $house17windowpane 27px * $zoom,
           $house17windowpane 35px * $zoom,
-          $house17windowpane 43px * $zoom,
-          transparent 43px * $zoom,
-          transparent 70px * $zoom,
-          $house17windowpane 70px * $zoom,
-          $house17windowpane 75px * $zoom,
-          transparent 75px * $zoom,
-          transparent 102px * $zoom,
-          $house17windowpane 102px * $zoom,
-          $house17windowpane
+          transparent 35px * $zoom,
+          transparent 62px * $zoom,
+          $house17windowpane 62px * $zoom,
+          $house17windowpane 67px * $zoom,
+          transparent 67px * $zoom,
+          transparent
         ),
         linear-gradient(
           to right,
-          $house17windowpane 0px,
-          $house17windowpane 8px * $zoom,
-          transparent 8px * $zoom,
-          transparent 35px * $zoom,
-          $house17windowpane 35px * $zoom,
-          $house17windowpane 44px * $zoom,
-          transparent 44px * $zoom,
-          transparent 71px * $zoom,
-          $house17windowpane 71px * $zoom,
-          $house17windowpane
+          transparent 0,
+          transparent 27px * $zoom,
+          $house17windowpane 27px * $zoom,
+          $house17windowpane 36px * $zoom,
+          transparent 36px * $zoom,
+          transparent
         );
       &:nth-child(1),
       &:nth-child(2),
@@ -118,22 +111,33 @@ $house17inside: rgb(0, 6, 18);
       &:nth-child(6) {
         top: 8px * $zoom;
       }
-      &:nth-child(1), &:nth-child(7), &:nth-child(13) {
+      &:nth-child(1),
+      &:nth-child(7),
+      &:nth-child(13) {
         left: 45px * $zoom;
       }
-      &:nth-child(2), &:nth-child(8), &:nth-child(14) {
+      &:nth-child(2),
+      &:nth-child(8),
+      &:nth-child(14) {
         left: 167px * $zoom;
       }
-      &:nth-child(3), &:nth-child(9), &:nth-child(15) {
+      &:nth-child(3),
+      &:nth-child(9),
+      &:nth-child(15) {
         left: 287px * $zoom;
       }
-      &:nth-child(4), &:nth-child(10) {
+      &:nth-child(4),
+      &:nth-child(10) {
         left: 405px * $zoom;
       }
-      &:nth-child(5), &:nth-child(11), &:nth-child(16) {
+      &:nth-child(5),
+      &:nth-child(11),
+      &:nth-child(16) {
         left: 524px * $zoom;
       }
-      &:nth-child(6), &:nth-child(12), &:nth-child(17) {
+      &:nth-child(6),
+      &:nth-child(12),
+      &:nth-child(17) {
         left: 645px * $zoom;
       }
       &:nth-child(7),
@@ -150,38 +154,28 @@ $house17inside: rgb(0, 6, 18);
       &:nth-child(18) {
         background-color: rgb(72, 78, 80);
         top: 207px * $zoom;
-        height: 127px * $zoom;
+        height: 111px * $zoom;
         background-image: linear-gradient(
             to bottom,
-            $house17windowpane 0px,
-            $house17windowpane 8px * $zoom,
-            transparent 8px * $zoom,
-            transparent 41px * $zoom,
+            transparent 0,
+            transparent 33px * $zoom,
+            $house17windowpane 33px * $zoom,
             $house17windowpane 41px * $zoom,
-            $house17windowpane 49px * $zoom,
-            transparent 49px * $zoom,
-            transparent 84px * $zoom,
-            $house17windowpane 84px * $zoom,
-            $house17windowpane 89px * $zoom,
-            transparent 89px * $zoom,
-            transparent 120px * $zoom,
-            $house17windowpane 119px * $zoom,
-            $house17windowpane
+            transparent 41px * $zoom,
+            transparent 76px * $zoom,
+            $house17windowpane 76px * $zoom,
+            $house17windowpane 81px * $zoom,
+            transparent 81px * $zoom,
+            transparent
           ),
           linear-gradient(
             to right,
-            $house17windowpane 0px,
-            $house17windowpane 8px * $zoom,
-            transparent 8px * $zoom,
-            transparent 35px * $zoom,
-            $house17windowpane 35px * $zoom,
-            transparent 36px * $zoom,
+            transparent 0,
+            transparent 27px * $zoom,
+            $house17windowpane 27px * $zoom,
             $house17windowpane 36px * $zoom,
-            $house17windowpane 44px * $zoom,
-            transparent 44px * $zoom,
-            transparent 71px * $zoom,
-            $house17windowpane 71px * $zoom,
-            $house17windowpane
+            transparent 36px * $zoom,
+            transparent
           );
       }
       &:nth-child(13),
@@ -210,7 +204,7 @@ $house17inside: rgb(0, 6, 18);
       &::before {
         left: -8px * $zoom;
         top: -58px * $zoom;
-        width: 80px * $zoom;
+        width: 86px * $zoom;
         height: 42px * $zoom;
         background-color: $house17inside;
         border: 8px * $zoom solid $house17windowpane;
@@ -219,12 +213,14 @@ $house17inside: rgb(0, 6, 18);
       z-index: 1;
       left: 394px * $zoom;
       top: 501px * $zoom;
-      width: 80px * $zoom;
+      width: 86px * $zoom;
       height: 178px * $zoom;
       background-color: $house17inside;
       border: 8px * $zoom solid $house17windowpane;
       border-top: 0;
       border-bottom: 0;
     }
+
+    opacity: 100%;
   }
 }
