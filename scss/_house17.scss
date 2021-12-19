@@ -1,5 +1,6 @@
 $house17rooftile: rgb(138, 80, 78);
-$house17windowpane: rgb(17, 21, 26);
+$house17chimney: rgb(95, 100, 101);
+$house17windowpane: rgb(44, 52, 59);
 $house17inside: rgb(0, 6, 18);
 
 #house17 {
@@ -32,6 +33,40 @@ $house17inside: rgb(0, 6, 18);
         transparent 15px * $zoom
       );
     background-size: 18px * $zoom 15px * $zoom;
+
+    .chimney {
+      top: -145px * $zoom;
+      left: 307px * $zoom;
+      width: 82px * $zoom;
+      height: 149px * $zoom;
+      background-color: $house17chimney;
+      background-image: linear-gradient(
+          to bottom,
+          darken($house17chimney, 8%) 0,
+          darken($house17chimney, 5%) 5%,
+          transparent 2%,
+          transparent 55%,
+          darken($house17chimney, 5%) 55%,
+          darken($house17chimney, 15%) 58%,
+          darken($house17chimney, 5%) 60%,
+          darken($house17chimney, 5%) 68%,
+          transparent 68%,
+          transparent
+        );
+
+      &::after {
+        top: 135px * $zoom;
+        left: -3px * $zoom;
+        width: 88px * $zoom;
+        height: 19px * $zoom;
+        background-color: $house17chimney;
+        background-image: linear-gradient(
+          to bottom,
+          transparent,
+          darken($house17chimney, 10%)
+        )
+      }
+    }
   }
 
   .gutter {
@@ -84,23 +119,23 @@ $house17inside: rgb(0, 6, 18);
       background-image: linear-gradient(
           to bottom,
           transparent 0,
-          transparent 27px * $zoom,
-          $house17windowpane 27px * $zoom,
-          $house17windowpane 35px * $zoom,
-          transparent 35px * $zoom,
-          transparent 62px * $zoom,
-          $house17windowpane 62px * $zoom,
-          $house17windowpane 67px * $zoom,
-          transparent 67px * $zoom,
+          transparent 29%,
+          $house17windowpane 29%,
+          $house17windowpane 37%,
+          transparent 37%,
+          transparent 66%,
+          $house17windowpane 66%,
+          $house17windowpane 71%,
+          transparent 71%,
           transparent
         ),
         linear-gradient(
           to right,
           transparent 0,
-          transparent 27px * $zoom,
-          $house17windowpane 27px * $zoom,
-          $house17windowpane 36px * $zoom,
-          transparent 36px * $zoom,
+          transparent 43%,
+          $house17windowpane 43%,
+          $house17windowpane 57%,
+          transparent 57%,
           transparent
         );
       &:nth-child(1),
@@ -109,7 +144,7 @@ $house17inside: rgb(0, 6, 18);
       &:nth-child(4),
       &:nth-child(5),
       &:nth-child(6) {
-        top: 8px * $zoom;
+        top: 18px * $zoom;
       }
       &:nth-child(1),
       &:nth-child(7),
@@ -155,28 +190,6 @@ $house17inside: rgb(0, 6, 18);
         background-color: rgb(72, 78, 80);
         top: 207px * $zoom;
         height: 111px * $zoom;
-        background-image: linear-gradient(
-            to bottom,
-            transparent 0,
-            transparent 33px * $zoom,
-            $house17windowpane 33px * $zoom,
-            $house17windowpane 41px * $zoom,
-            transparent 41px * $zoom,
-            transparent 76px * $zoom,
-            $house17windowpane 76px * $zoom,
-            $house17windowpane 81px * $zoom,
-            transparent 81px * $zoom,
-            transparent
-          ),
-          linear-gradient(
-            to right,
-            transparent 0,
-            transparent 27px * $zoom,
-            $house17windowpane 27px * $zoom,
-            $house17windowpane 36px * $zoom,
-            transparent 36px * $zoom,
-            transparent
-          );
       }
       &:nth-child(13),
       &:nth-child(14),
@@ -208,6 +221,34 @@ $house17inside: rgb(0, 6, 18);
         height: 42px * $zoom;
         background-color: $house17inside;
         border: 8px * $zoom solid $house17windowpane;
+
+        background-image: radial-gradient(
+            circle at center,
+            $house17inside 0,
+            $house17inside 20%,
+            $house17windowpane 20%,
+            $house17windowpane 24%,
+            transparent 24%,
+            transparent
+          ),
+          linear-gradient(
+            to bottom,
+            transparent 0,
+            transparent 48%,
+            $house17windowpane 48%,
+            $house17windowpane 52%,
+            transparent 52%,
+            transparent
+          ),
+          linear-gradient(
+            to right,
+            transparent 0,
+            transparent 49%,
+            $house17windowpane 49%,
+            $house17windowpane 51%,
+            transparent 51%,
+            transparent
+          );
       }
 
       z-index: 1;
@@ -220,7 +261,5 @@ $house17inside: rgb(0, 6, 18);
       border-top: 0;
       border-bottom: 0;
     }
-
-    opacity: 100%;
   }
 }
