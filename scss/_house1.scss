@@ -1,3 +1,5 @@
 #house1 {
-  width: 200px * $zoom;
+  width: $house1width * $zoom;
+
+  background-image: url('../images/house1.png');
 }

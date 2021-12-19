@@ -1,17 +1,33 @@
 body {
   background-color: lightblue;
+}
+
+#nyhavn {
+  height: 744px;
   font-weight: bold;
+  width: 1400.5px;
 }
 
 .house {
-  border: 1px solid black;
-  width: 100px;
-  height: 300px;
+  height: 100%;
   float: left;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #house1 {
-  width: 200px;
+  width: 554px;
+  background-image: url("../images/house1.png");
+}
+
+#house3 {
+  width: 407.5px;
+  background-image: url("../images/house3.png");
+}
+
+#house5 {
+  width: 424px;
+  background-image: url("../images/house5.png");
 }
 
 /*# sourceMappingURL=style.css.map */

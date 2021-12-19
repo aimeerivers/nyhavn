@@ -1,6 +1,15 @@
-$zoom: 1;
+$house1width: 1108px;
+$house3width: 815px;
+$house5width: 848px;
+
+$numberOfHouses: 3;
 
 body {
   background-color: lightblue;
+}
+
+#nyhavn {
+  height: 1488px * $zoom;
   font-weight: bold;
+  width: ((10 * $numberOfHouses) + $house1width + $house3width + $house5width) * $zoom;
 }

@@ -1,6 +1,7 @@
 .house {
-  border: 1px solid black;
-  width: 100px * $zoom;
-  height: 300px * $zoom;
+  height: 100%;
   float: left;
+
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
