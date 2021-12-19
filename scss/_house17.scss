@@ -1,5 +1,6 @@
 $house17rooftile: rgb(138, 80, 78);
 $house17windowpane: rgb(17, 21, 26);
+$house17inside: rgb(0, 6, 18);
 
 #house17 {
   width: $house17width * $zoom;
@@ -189,7 +190,7 @@ $house17windowpane: rgb(17, 21, 26);
       &:nth-child(16),
       &:nth-child(17) {
         top: 443px * $zoom;
-        background-color: rgb(0, 6, 18);
+        background-color: $house17inside;
       }
     }
 
@@ -204,6 +205,26 @@ $house17windowpane: rgb(17, 21, 26);
       text-shadow: 2px * $zoom -2px * $zoom 2px * $zoom rgb(245, 102, 106),
         -2px * $zoom 2px * $zoom 2px * $zoom rgb(245, 102, 106), -2px * $zoom 5px * $zoom 5px * $zoom rgb(40, 11, 10);
     }
-    opacity: 100%;
+
+    .door {
+      &::before {
+        left: -8px * $zoom;
+        top: -58px * $zoom;
+        width: 80px * $zoom;
+        height: 42px * $zoom;
+        background-color: $house17inside;
+        border: 8px * $zoom solid $house17windowpane;
+      }
+
+      z-index: 1;
+      left: 394px * $zoom;
+      top: 501px * $zoom;
+      width: 80px * $zoom;
+      height: 178px * $zoom;
+      background-color: $house17inside;
+      border: 8px * $zoom solid $house17windowpane;
+      border-top: 0;
+      border-bottom: 0;
+    }
   }
 }
