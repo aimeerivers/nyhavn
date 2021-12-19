@@ -258,6 +258,7 @@ $house17inside: rgb(0, 6, 18);
       &:nth-child(17) {
         top: 443px * $zoom;
         background-color: $house17inside;
+        height: 131px * $zoom;
       }
     }
 

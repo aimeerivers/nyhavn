@@ -188,6 +188,7 @@ body {
 #house17 .wall .window:nth-child(13), #house17 .wall .window:nth-child(14), #house17 .wall .window:nth-child(15), #house17 .wall .window:nth-child(16), #house17 .wall .window:nth-child(17) {
   top: 443px;
   background-color: #000612;
+  height: 131px;
 }
 #house17 .wall .sign {
   font-family: "Times New Roman", Times, serif;
