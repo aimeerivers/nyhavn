@@ -1,5 +1,32 @@
+$house17rooftile: rgb(138, 80, 78);
+
 #house17 {
   width: $house17width * $zoom;
 
   background-image: url('../images/house17.png');
+
+  .roof {
+    position: absolute;
+    top: 412px * $zoom;
+    width: 783px * $zoom;
+    height: 240px * $zoom;
+    border: 3px * $zoom solid darken($house17rooftile, 20%);
+    border-left: 0;
+    border-bottom: 0;
+    background-color: $house17rooftile;
+    background-image:
+      linear-gradient(to right,
+        darken($house17rooftile, 20%) 0px,
+        darken($house17rooftile, 20%) 3px * $zoom,
+        transparent 3px * $zoom,
+        transparent 18px * $zoom),
+      radial-gradient(circle at top,
+        darken($house17rooftile, 10%) 0px,
+        lighten($house17rooftile, 10%) 2px * $zoom,
+        darken($house17rooftile, 10%) 11px * $zoom,
+        darken($house17rooftile, 20%) 12px * $zoom,
+        darken($house17rooftile, 20%) 15px * $zoom,
+        transparent 15px * $zoom);
+    background-size: 18px * $zoom 15px * $zoom;
+  }
 }
