@@ -1,8 +1,14 @@
 $house1width: 1108px;
 $house3width: 815px;
 $house5width: 848px;
+$house7width: 757px;
+$house9width: 578px;
+$house11width: 725px;
+$house13width: 587px;
+$house15width: 519px;
+$house17width: 1076px;
 
-$numberOfHouses: 3;
+$numberOfHouses: 9;
 
 body {
   background-color: lightblue;
@@ -11,5 +17,16 @@ body {
 #nyhavn {
   height: 1488px * $zoom;
   font-weight: bold;
-  width: ((10 * $numberOfHouses) + $house1width + $house3width + $house5width) * $zoom;
+  width: (
+    (10 * $numberOfHouses) +
+    $house1width +
+    $house3width +
+    $house5width +
+    $house7width +
+    $house9width +
+    $house11width +
+    $house13width +
+    $house15width +
+    $house17width
+  ) * $zoom;
 }
