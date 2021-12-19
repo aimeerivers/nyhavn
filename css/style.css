@@ -1,13 +1,13 @@
 body {
-  background-image: linear-gradient(to bottom, #5998fe, #87cdf6 1426px, #2e3032 1426px, #454b51 1456px, #595f65);
+  background-image: linear-gradient(to bottom, #5998fe, #87cdf6 713px, #2e3032 713px, #454b51 728px, #595f65);
   background-repeat: repeat-x;
 }
 
 #nyhavn {
-  margin-left: 50px;
-  height: 1488px;
+  margin-left: 25px;
+  height: 744px;
   font-weight: bold;
-  width: 1615px;
+  width: 807.5px;
 }
 
 .house {
@@ -26,220 +26,220 @@ body {
 }
 
 #house1 {
-  width: 1108px;
+  width: 554px;
   background-image: url("../images/house1.png");
 }
 
 #house3 {
-  width: 815px;
+  width: 407.5px;
   background-image: url("../images/house3.png");
 }
 
 #house5 {
-  width: 848px;
+  width: 424px;
   background-image: url("../images/house5.png");
 }
 
 #house7 {
-  width: 757px;
+  width: 378.5px;
   background-image: url("../images/house7.png");
 }
 
 #house9 {
-  width: 578px;
+  width: 289px;
   background-image: url("../images/house9.png");
 }
 
 #house11 {
-  width: 725px;
+  width: 362.5px;
   background-image: url("../images/house11.png");
 }
 
 #house13 {
-  width: 587px;
+  width: 293.5px;
   background-image: url("../images/house13.png");
 }
 
 #house15 {
-  width: 519px;
+  width: 259.5px;
   background-image: url("../images/house15.png");
 }
 
 #house17 {
-  width: 1076px;
+  width: 538px;
 }
 #house17 .roof {
-  top: 412px;
-  width: 779px;
-  height: 240px;
-  border: 3px solid #492a29;
+  top: 206px;
+  width: 389.5px;
+  height: 120px;
+  border: 1.5px solid #492a29;
   border-left: 0;
   border-bottom: 0;
   background-color: #8a504e;
-  background-image: linear-gradient(to right, #492a29 0, #492a29 3px, transparent 3px, transparent 18px), radial-gradient(circle at top, #693d3c 0, #a76664 2px, #693d3c 11px, #492a29 12px, #492a29 15px, transparent 15px);
-  background-size: 18px 15px;
+  background-image: linear-gradient(to right, #492a29 0, #492a29 1.5px, transparent 1.5px, transparent 9px), radial-gradient(circle at top, #693d3c 0, #a76664 1px, #693d3c 5.5px, #492a29 6px, #492a29 7.5px, transparent 7.5px);
+  background-size: 9px 7.5px;
 }
 #house17 .roof .window {
-  width: 105px;
-  height: 93px;
+  width: 52.5px;
+  height: 46.5px;
   background-color: #5d686a;
-  top: 105px;
-  border: 6px solid #21272c;
-  border-bottom: 3px solid #21272c;
+  top: 52.5px;
+  border: 3px solid #21272c;
+  border-bottom: 1.5px solid #21272c;
   background-image: linear-gradient(to bottom, transparent, transparent 31%, #2c343b 31%, #2c343b 34%, transparent 34%, transparent 64%, #2c343b 64%, #2c343b 67%, transparent 67%, transparent), linear-gradient(to right, transparent, transparent 29%, #2c343b 29%, #2c343b 36%, transparent 36%, transparent 63%, #2c343b 63%, #2c343b 70%, transparent 70%, transparent);
 }
 #house17 .roof .window::before {
-  left: -20px;
-  top: -98px;
+  left: -10px;
+  top: -49px;
   width: 0;
   height: 0;
-  border: 72px solid transparent;
-  border-bottom: 20px solid #161a1e;
+  border: 36px solid transparent;
+  border-bottom: 10px solid #161a1e;
 }
 #house17 .roof .window::after {
-  left: -10px;
-  top: 96px;
-  width: 125px;
-  height: 8px;
+  left: -5px;
+  top: 48px;
+  width: 62.5px;
+  height: 4px;
   background-color: rgba(44, 52, 59, 0.8);
 }
 #house17 .roof .window:nth-child(1) {
-  left: 94px;
+  left: 47px;
 }
 #house17 .roof .window:nth-child(2) {
-  left: 343px;
+  left: 171.5px;
 }
 #house17 .roof .window:nth-child(3) {
-  left: 593px;
+  left: 296.5px;
 }
 #house17 .roof .chimney {
-  top: -145px;
-  left: 307px;
-  width: 82px;
-  height: 149px;
+  top: -72.5px;
+  left: 153.5px;
+  width: 41px;
+  height: 74.5px;
   background-color: #5f6465;
   background-image: linear-gradient(to bottom, #4b4f50 0, #535758 5%, transparent 2%, transparent 55%, #535758 55%, #3a3d3e 58%, #535758 60%, #535758 68%, transparent 68%, transparent);
 }
 #house17 .roof .chimney::after {
-  top: 135px;
-  left: -3px;
-  width: 88px;
-  height: 19px;
+  top: 67.5px;
+  left: -1.5px;
+  width: 44px;
+  height: 9.5px;
   background-color: #5f6465;
   background-image: linear-gradient(to bottom, transparent, #464a4b);
 }
 #house17 .gutter {
-  top: 655px;
-  width: 782px;
-  height: 9px;
+  top: 327.5px;
+  width: 391px;
+  height: 4.5px;
   background-image: linear-gradient(to bottom, #454545, #131216);
 }
 #house17 .wall {
-  top: 679px;
-  width: 782px;
-  height: 634px;
+  top: 339.5px;
+  width: 391px;
+  height: 317px;
   background-color: #b48c49;
 }
 #house17 .wall::before {
-  top: -15px;
-  width: 782px;
-  height: 13px;
+  top: -7.5px;
+  width: 391px;
+  height: 6.5px;
   background-image: linear-gradient(to bottom, #2f2d2c 0%, #565757 30%, #8e8d88 50%, #9c959d 100%);
-  border-bottom: 2px solid #433323;
+  border-bottom: 1px solid #433323;
 }
 #house17 .wall::after {
-  top: 634px;
-  width: 782px;
-  height: 105px;
+  top: 317px;
+  width: 391px;
+  height: 52.5px;
   background-image: linear-gradient(to bottom, #2a1c12 0%, #412f33 10%, #2f2127 10%, #2f2127 12%, #33262c 12%, #33262c 100%);
 }
 #house17 .wall .window {
-  width: 63px;
-  height: 94px;
+  width: 31.5px;
+  height: 47px;
   background-color: #5e707d;
-  border: 8px solid #2c343b;
+  border: 4px solid #2c343b;
   background-image: linear-gradient(to bottom, transparent 0, transparent 29%, #2c343b 29%, #2c343b 37%, transparent 37%, transparent 66%, #2c343b 66%, #2c343b 71%, transparent 71%, transparent), linear-gradient(to right, transparent 0, transparent 43%, #2c343b 43%, #2c343b 57%, transparent 57%, transparent);
 }
 #house17 .wall .window:nth-child(1), #house17 .wall .window:nth-child(2), #house17 .wall .window:nth-child(3), #house17 .wall .window:nth-child(4), #house17 .wall .window:nth-child(5), #house17 .wall .window:nth-child(6) {
-  top: 18px;
+  top: 9px;
 }
 #house17 .wall .window:nth-child(1), #house17 .wall .window:nth-child(7), #house17 .wall .window:nth-child(13) {
-  left: 45px;
+  left: 22.5px;
 }
 #house17 .wall .window:nth-child(2), #house17 .wall .window:nth-child(8), #house17 .wall .window:nth-child(14) {
-  left: 167px;
+  left: 83.5px;
 }
 #house17 .wall .window:nth-child(3), #house17 .wall .window:nth-child(9), #house17 .wall .window:nth-child(15) {
-  left: 287px;
+  left: 143.5px;
 }
 #house17 .wall .window:nth-child(4), #house17 .wall .window:nth-child(10) {
-  left: 405px;
+  left: 202.5px;
 }
 #house17 .wall .window:nth-child(5), #house17 .wall .window:nth-child(11), #house17 .wall .window:nth-child(16) {
-  left: 524px;
+  left: 262px;
 }
 #house17 .wall .window:nth-child(6), #house17 .wall .window:nth-child(12), #house17 .wall .window:nth-child(17) {
-  left: 645px;
+  left: 322.5px;
 }
 #house17 .wall .window:nth-child(7), #house17 .wall .window:nth-child(8), #house17 .wall .window:nth-child(9), #house17 .wall .window:nth-child(10), #house17 .wall .window:nth-child(11), #house17 .wall .window:nth-child(12), #house17 .wall .window:nth-child(13), #house17 .wall .window:nth-child(14), #house17 .wall .window:nth-child(15), #house17 .wall .window:nth-child(16), #house17 .wall .window:nth-child(17), #house17 .wall .window:nth-child(18) {
   background-color: #484e50;
-  top: 207px;
-  height: 111px;
+  top: 103.5px;
+  height: 55.5px;
 }
 #house17 .wall .window:nth-child(13), #house17 .wall .window:nth-child(14), #house17 .wall .window:nth-child(15), #house17 .wall .window:nth-child(16), #house17 .wall .window:nth-child(17) {
-  top: 443px;
+  top: 221.5px;
   background-color: #121315;
-  height: 131px;
+  height: 65.5px;
 }
 #house17 .wall .sign {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
-  top: 344px;
-  left: 90px;
-  font-size: 79px;
-  letter-spacing: 16px;
+  top: 172px;
+  left: 45px;
+  font-size: 39.5px;
+  letter-spacing: 8px;
   color: #9a2232;
-  text-shadow: 2px -2px 2px #f5666a, -2px 2px 2px #f5666a, -2px 5px 5px #280b0a;
+  text-shadow: 1px -1px 1px #f5666a, -1px 1px 1px #f5666a, -1px 2.5px 2.5px #280b0a;
 }
 #house17 .wall .door {
   z-index: 1;
-  left: 394px;
-  top: 501px;
-  width: 86px;
-  height: 178px;
+  left: 197px;
+  top: 250.5px;
+  width: 43px;
+  height: 89px;
   background-color: #121315;
-  border: 8px solid #2c343b;
+  border: 4px solid #2c343b;
   border-top: 0;
   border-bottom: 0;
 }
 #house17 .wall .door::before {
-  left: -8px;
-  top: -58px;
-  width: 86px;
-  height: 42px;
+  left: -4px;
+  top: -29px;
+  width: 43px;
+  height: 21px;
   background-color: #121315;
-  border: 8px solid #2c343b;
+  border: 4px solid #2c343b;
   background-image: radial-gradient(circle at center, #121315 0, #121315 20%, #2c343b 20%, #2c343b 24%, transparent 24%, transparent), linear-gradient(to bottom, transparent 0, transparent 48%, #2c343b 48%, #2c343b 52%, transparent 52%, transparent), linear-gradient(to right, transparent 0, transparent 49%, #2c343b 49%, #2c343b 51%, transparent 51%, transparent);
 }
 #house17 .wall .door::after {
   z-index: 1;
-  top: 177px;
-  left: -14px;
-  width: 114px;
-  height: 61px;
-  background-image: repeating-linear-gradient(to bottom, #1f191c 0, #1f191c 2px, #2f2127 5px, #412f33 6px, #211b1b 20px);
+  top: 88.5px;
+  left: -7px;
+  width: 57px;
+  height: 30.5px;
+  background-image: repeating-linear-gradient(to bottom, #1f191c 0, #1f191c 1px, #2f2127 2.5px, #412f33 3px, #211b1b 10px);
 }
 #house17 .wall .tattoo-ole .window2 {
   z-index: 1;
-  top: 649px;
-  left: 25px;
-  width: 79px;
-  height: 70px;
-  border: 5px solid #04020d;
+  top: 324.5px;
+  left: 12.5px;
+  width: 39.5px;
+  height: 35px;
+  border: 2.5px solid #04020d;
   background-color: #443a33;
 }
 #house17 .wall .tattoo-ole .window2:nth-child(2) {
-  left: 273px;
+  left: 136.5px;
 }
 #house17 .wall .tattoo-ole .window2 .sign2 {
   display: inline-block;
@@ -247,32 +247,32 @@ body {
   background-color: #a29e9e;
   color: #20151e;
   font-family: "Times New Roman", Times, serif;
-  font-size: 10px;
+  font-size: 5px;
   font-weight: bold;
   text-align: center;
 }
 #house17 .wall .tattoo-ole .door2 {
   z-index: 1;
-  top: 646px;
-  left: 152px;
-  width: 83px;
-  height: 93px;
+  top: 323px;
+  left: 76px;
+  width: 41.5px;
+  height: 46.5px;
   background-color: #0c0b16;
 }
 #house17 .wall .door3 {
   z-index: 1;
-  top: 655px;
-  left: 517px;
-  width: 87px;
-  height: 84px;
+  top: 327.5px;
+  left: 258.5px;
+  width: 43.5px;
+  height: 42px;
   background-color: #0c0b16;
 }
 #house17 .wall .door4 {
   z-index: 1;
-  top: 646px;
-  left: 647px;
-  width: 84px;
-  height: 93px;
+  top: 323px;
+  left: 323.5px;
+  width: 42px;
+  height: 46.5px;
   background-color: #0c0b16;
 }
 
