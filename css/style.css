@@ -3,6 +3,7 @@ body {
 }
 
 #nyhavn {
+  margin-left: 50px;
   height: 1488px;
   font-weight: bold;
   width: 1615px;
