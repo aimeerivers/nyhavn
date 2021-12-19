@@ -1,10 +1,17 @@
 body {
-  background-color: red;
+  background-color: lightblue;
   font-weight: bold;
 }
 
-body {
-  font-family: "Courier New", Courier, monospace;
+.house {
+  border: 1px solid black;
+  width: 100px;
+  height: 300px;
+  float: left;
+}
+
+#house1 {
+  width: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
