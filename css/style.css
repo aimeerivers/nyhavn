@@ -16,7 +16,11 @@ body {
   background-repeat: no-repeat;
 }
 .house * {
-  position: relative;
+  position: absolute;
+}
+.house *::before, .house *::after {
+  position: absolute;
+  content: "";
 }
 
 #house1 {
@@ -75,10 +79,29 @@ body {
   background-size: 18px 15px;
 }
 #house17 .gutter {
-  top: 412px;
+  top: 655px;
   width: 786px;
   height: 9px;
   background-image: linear-gradient(to bottom, #454545, #131216);
+}
+#house17 .wall {
+  top: 679px;
+  width: 786px;
+  height: 634px;
+  background-color: #b48c49;
+}
+#house17 .wall::before {
+  top: -15px;
+  width: 786px;
+  height: 13px;
+  background-image: linear-gradient(to bottom, #2f2d2c 0%, #565757 30%, #8e8d88 50%, #9c959d 100%);
+  border-bottom: 2px solid #433323;
+}
+#house17 .wall::after {
+  top: 634px;
+  width: 786px;
+  height: 105px;
+  background-image: linear-gradient(to bottom, #2a1c12 0%, #412f33 10%, #2f2127 10%, #2f2127 12%, #33262c 12%, #33262c 100%);
 }
 
 /*# sourceMappingURL=style.css.map */

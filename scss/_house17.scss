@@ -33,9 +33,45 @@ $house17rooftile: rgb(138, 80, 78);
   }
 
   .gutter {
-    top: 412px * $zoom;
+    top: 655px * $zoom;
     width: 786px * $zoom;
     height: 9px * $zoom;
     background-image: linear-gradient(to bottom, rgb(69, 69, 69), rgb(19, 18, 22));
+  }
+
+  .wall {
+    &::before {
+      top: -15px * $zoom;
+      width: 786px * $zoom;
+      height: 13px * $zoom;
+      background-image: linear-gradient(
+        to bottom,
+        rgb(47, 45, 44) 0%,
+        rgb(86, 87, 87) 30%,
+        rgb(142, 141, 136) 50%,
+        rgb(156, 149, 157) 100%
+      );
+      border-bottom: 2px * $zoom solid rgb(67, 51, 35);
+    }
+
+    top: 679px * $zoom;
+    width: 786px * $zoom;
+    height: 634px * $zoom;
+    background-color: rgb(180, 140, 73);
+
+    &::after {
+      top: 634px * $zoom;
+      width: 786px * $zoom;
+      height: 105px * $zoom;
+      background-image: linear-gradient(
+        to bottom,
+        rgb(42, 28, 18) 0%,
+        rgb(65, 47, 51) 10%,
+        rgb(47, 33, 39) 10%,
+        rgb(47, 33, 39) 12%,
+        rgb(51, 38, 44) 12%,
+        rgb(51, 38, 44) 100%
+      );
+    }
   }
 }

@@ -8,6 +8,11 @@
   background-repeat: no-repeat;
 
   * {
-    position: relative;
+    position: absolute;
+
+    &::before, &::after {
+      position: absolute;
+      content: "";
+    }
   }
 }
