@@ -86,8 +86,8 @@ $house17windowpane: rgb(17, 21, 26);
           transparent 8px * $zoom,
           transparent 35px * $zoom,
           $house17windowpane 35px * $zoom,
-          $house17windowpane 44px * $zoom,
-          transparent 44px * $zoom,
+          $house17windowpane 43px * $zoom,
+          transparent 43px * $zoom,
           transparent 70px * $zoom,
           $house17windowpane 70px * $zoom,
           $house17windowpane 75px * $zoom,
@@ -101,8 +101,8 @@ $house17windowpane: rgb(17, 21, 26);
           $house17windowpane 0px,
           $house17windowpane 8px * $zoom,
           transparent 8px * $zoom,
-          transparent 36px * $zoom,
-          $house17windowpane 36px * $zoom,
+          transparent 35px * $zoom,
+          $house17windowpane 35px * $zoom,
           $house17windowpane 44px * $zoom,
           transparent 44px * $zoom,
           transparent 71px * $zoom,
@@ -117,23 +117,64 @@ $house17windowpane: rgb(17, 21, 26);
       &:nth-child(6) {
         top: 8px * $zoom;
       }
-      &:nth-child(1) {
+      &:nth-child(1), &:nth-child(7) {
         left: 45px * $zoom;
       }
-      &:nth-child(2) {
+      &:nth-child(2), &:nth-child(8) {
         left: 167px * $zoom;
       }
-      &:nth-child(3) {
+      &:nth-child(3), &:nth-child(9) {
         left: 287px * $zoom;
       }
-      &:nth-child(4) {
+      &:nth-child(4), &:nth-child(10) {
         left: 405px * $zoom;
       }
-      &:nth-child(5) {
+      &:nth-child(5), &:nth-child(11) {
         left: 524px * $zoom;
       }
-      &:nth-child(6) {
+      &:nth-child(6), &:nth-child(12) {
         left: 645px * $zoom;
+      }
+      &:nth-child(7),
+      &:nth-child(8),
+      &:nth-child(9),
+      &:nth-child(10),
+      &:nth-child(11),
+      &:nth-child(12) {
+        top: 207px * $zoom;
+        height: 127px * $zoom;
+        background-image: linear-gradient(
+            to bottom,
+            $house17windowpane 0px,
+            $house17windowpane 8px * $zoom,
+            transparent 8px * $zoom,
+            transparent 41px * $zoom,
+            $house17windowpane 41px * $zoom,
+            $house17windowpane 49px * $zoom,
+            transparent 49px * $zoom,
+            transparent 84px * $zoom,
+            $house17windowpane 84px * $zoom,
+            $house17windowpane 89px * $zoom,
+            transparent 89px * $zoom,
+            transparent 120px * $zoom,
+            $house17windowpane 119px * $zoom,
+            $house17windowpane
+          ),
+          linear-gradient(
+            to right,
+            $house17windowpane 0px,
+            $house17windowpane 8px * $zoom,
+            transparent 8px * $zoom,
+            transparent 35px * $zoom,
+            $house17windowpane 35px * $zoom,
+            transparent 36px * $zoom,
+            $house17windowpane 36px * $zoom,
+            $house17windowpane 44px * $zoom,
+            transparent 44px * $zoom,
+            transparent 71px * $zoom,
+            $house17windowpane 71px * $zoom,
+            $house17windowpane
+          );
       }
     }
 
