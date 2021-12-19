@@ -34,6 +34,70 @@ $house17inside: rgb(0, 6, 18);
       );
     background-size: 18px * $zoom 15px * $zoom;
 
+    .window {
+      &::before {
+        left: -20px * $zoom;
+        top: -98px * $zoom;
+        width: 0;
+        height: 0;
+        border: 72px * $zoom solid transparent;
+        border-bottom: 20px * $zoom solid darken($house17windowpane, 10%);
+      }
+
+      width: 105px * $zoom;
+      height: 93px * $zoom;
+      background-color: rgb(93, 104, 106);
+      top: 105px * $zoom;
+      border: 6px * $zoom solid darken($house17windowpane, 5%);
+      border-bottom: 3px * $zoom solid darken($house17windowpane, 5%);
+      background-image: linear-gradient(
+          to bottom,
+          transparent,
+          transparent 31%,
+          $house17windowpane 31%,
+          $house17windowpane 34%,
+          transparent 34%,
+          transparent 64%,
+          $house17windowpane 64%,
+          $house17windowpane 67%,
+          transparent 67%,
+          transparent
+        ),
+        linear-gradient(
+          to right,
+          transparent,
+          transparent 29%,
+          $house17windowpane 29%,
+          $house17windowpane 36%,
+          transparent 36%,
+          transparent 63%,
+          $house17windowpane 63%,
+          $house17windowpane 70%,
+          transparent 70%,
+          transparent
+        );
+
+      &::after {
+        left: -10px * $zoom;
+        top: 96px * $zoom;
+        width: 125px * $zoom;
+        height: 8px * $zoom;
+        background-color: rgba(44, 52, 59, 0.8);
+      }
+
+      &:nth-child(1) {
+        left: 94px * $zoom;
+      }
+
+      &:nth-child(2) {
+        left: 343px * $zoom;
+      }
+
+      &:nth-child(3) {
+        left: 593px * $zoom;
+      }
+    }
+
     .chimney {
       top: -145px * $zoom;
       left: 307px * $zoom;
@@ -41,18 +105,18 @@ $house17inside: rgb(0, 6, 18);
       height: 149px * $zoom;
       background-color: $house17chimney;
       background-image: linear-gradient(
-          to bottom,
-          darken($house17chimney, 8%) 0,
-          darken($house17chimney, 5%) 5%,
-          transparent 2%,
-          transparent 55%,
-          darken($house17chimney, 5%) 55%,
-          darken($house17chimney, 15%) 58%,
-          darken($house17chimney, 5%) 60%,
-          darken($house17chimney, 5%) 68%,
-          transparent 68%,
-          transparent
-        );
+        to bottom,
+        darken($house17chimney, 8%) 0,
+        darken($house17chimney, 5%) 5%,
+        transparent 2%,
+        transparent 55%,
+        darken($house17chimney, 5%) 55%,
+        darken($house17chimney, 15%) 58%,
+        darken($house17chimney, 5%) 60%,
+        darken($house17chimney, 5%) 68%,
+        transparent 68%,
+        transparent
+      );
 
       &::after {
         top: 135px * $zoom;
@@ -60,11 +124,7 @@ $house17inside: rgb(0, 6, 18);
         width: 88px * $zoom;
         height: 19px * $zoom;
         background-color: $house17chimney;
-        background-image: linear-gradient(
-          to bottom,
-          transparent,
-          darken($house17chimney, 10%)
-        )
+        background-image: linear-gradient(to bottom, transparent, darken($house17chimney, 10%));
       }
     }
   }

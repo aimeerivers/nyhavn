@@ -78,6 +78,39 @@ body {
   background-image: linear-gradient(to right, #492a29 0, #492a29 3px, transparent 3px, transparent 18px), radial-gradient(circle at top, #693d3c 0, #a76664 2px, #693d3c 11px, #492a29 12px, #492a29 15px, transparent 15px);
   background-size: 18px 15px;
 }
+#house17 .roof .window {
+  width: 105px;
+  height: 93px;
+  background-color: #5d686a;
+  top: 105px;
+  border: 6px solid #21272c;
+  border-bottom: 3px solid #21272c;
+  background-image: linear-gradient(to bottom, transparent, transparent 31%, #2c343b 31%, #2c343b 34%, transparent 34%, transparent 64%, #2c343b 64%, #2c343b 67%, transparent 67%, transparent), linear-gradient(to right, transparent, transparent 29%, #2c343b 29%, #2c343b 36%, transparent 36%, transparent 63%, #2c343b 63%, #2c343b 70%, transparent 70%, transparent);
+}
+#house17 .roof .window::before {
+  left: -20px;
+  top: -98px;
+  width: 0;
+  height: 0;
+  border: 72px solid transparent;
+  border-bottom: 20px solid #161a1e;
+}
+#house17 .roof .window::after {
+  left: -10px;
+  top: 96px;
+  width: 125px;
+  height: 8px;
+  background-color: rgba(44, 52, 59, 0.8);
+}
+#house17 .roof .window:nth-child(1) {
+  left: 94px;
+}
+#house17 .roof .window:nth-child(2) {
+  left: 343px;
+}
+#house17 .roof .window:nth-child(3) {
+  left: 593px;
+}
 #house17 .roof .chimney {
   top: -145px;
   left: 307px;
