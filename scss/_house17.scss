@@ -6,7 +6,7 @@ $house17inside: rgb(0, 6, 18);
 #house17 {
   width: $house17width * $zoom;
 
-  background-image: url("../images/house17.png");
+  // background-image: url("../images/house17.png");
 
   .roof {
     top: 412px * $zoom;
@@ -275,6 +275,7 @@ $house17inside: rgb(0, 6, 18);
     }
 
     .door {
+      // Window above door
       &::before {
         left: -8px * $zoom;
         top: -58px * $zoom;
@@ -321,6 +322,23 @@ $house17inside: rgb(0, 6, 18);
       border: 8px * $zoom solid $house17windowpane;
       border-top: 0;
       border-bottom: 0;
+
+      // Steps under door
+      &::after {
+        z-index: 1;
+        top: 177px * $zoom;
+        left: -14px * $zoom;
+        width: 114px * $zoom;
+        height: 61px * $zoom;
+        background-image: repeating-linear-gradient(
+          to bottom,
+          rgb(31, 25, 28) 0,
+          rgb(31, 25, 28) 2px * $zoom,
+          rgb(47, 33, 39) 5px * $zoom,
+          rgb(65, 47, 51) 6px * $zoom,
+          rgb(33, 27, 27) 20px * $zoom
+        );
+      }
     }
 
     .tattoo-ole {
@@ -362,8 +380,8 @@ $house17inside: rgb(0, 6, 18);
     .door3 {
       z-index: 1;
       top: 655px * $zoom;
-      left: 507px * $zoom;
-      width: 97px * $zoom;
+      left: 517px * $zoom;
+      width: 87px * $zoom;
       height: 84px * $zoom;
       background-color: rgb(12, 11, 22);
     }

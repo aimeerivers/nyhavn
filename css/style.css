@@ -219,6 +219,14 @@ body {
   border: 8px solid #2c343b;
   background-image: radial-gradient(circle at center, #000612 0, #000612 20%, #2c343b 20%, #2c343b 24%, transparent 24%, transparent), linear-gradient(to bottom, transparent 0, transparent 48%, #2c343b 48%, #2c343b 52%, transparent 52%, transparent), linear-gradient(to right, transparent 0, transparent 49%, #2c343b 49%, #2c343b 51%, transparent 51%, transparent);
 }
+#house17 .wall .door::after {
+  z-index: 1;
+  top: 177px;
+  left: -14px;
+  width: 114px;
+  height: 61px;
+  background-image: repeating-linear-gradient(to bottom, #1f191c 0, #1f191c 2px, #2f2127 5px, #412f33 6px, #211b1b 20px);
+}
 #house17 .wall .tattoo-ole .window2 {
   z-index: 1;
   top: 649px;
@@ -252,8 +260,8 @@ body {
 #house17 .wall .door3 {
   z-index: 1;
   top: 655px;
-  left: 507px;
-  width: 97px;
+  left: 517px;
+  width: 87px;
   height: 84px;
   background-color: #0c0b16;
 }
