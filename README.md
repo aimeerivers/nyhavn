@@ -16,8 +16,12 @@
 
     python -m SimpleHTTPServer
 
-## Open web browser
+Open web browser to http://localhost:8000/
 
-http://localhost:8000/
+## Auto refresh
+
+Add the following snippet in the `<head>` of index.html
+
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
 
 It will auto refresh with changes.
