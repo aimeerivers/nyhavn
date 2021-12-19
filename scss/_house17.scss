@@ -8,7 +8,7 @@ $house17windowpane: rgb(17, 21, 26);
 
   .roof {
     top: 412px * $zoom;
-    width: 783px * $zoom;
+    width: 779px * $zoom;
     height: 240px * $zoom;
     border: 3px * $zoom solid darken($house17rooftile, 20%);
     border-left: 0;
@@ -35,7 +35,7 @@ $house17windowpane: rgb(17, 21, 26);
 
   .gutter {
     top: 655px * $zoom;
-    width: 786px * $zoom;
+    width: 782px * $zoom;
     height: 9px * $zoom;
     background-image: linear-gradient(to bottom, rgb(69, 69, 69), rgb(19, 18, 22));
   }
@@ -43,7 +43,7 @@ $house17windowpane: rgb(17, 21, 26);
   .wall {
     &::before {
       top: -15px * $zoom;
-      width: 786px * $zoom;
+      width: 782px * $zoom;
       height: 13px * $zoom;
       background-image: linear-gradient(
         to bottom,
@@ -56,13 +56,13 @@ $house17windowpane: rgb(17, 21, 26);
     }
 
     top: 679px * $zoom;
-    width: 786px * $zoom;
+    width: 782px * $zoom;
     height: 634px * $zoom;
     background-color: rgb(180, 140, 73);
 
     &::after {
       top: 634px * $zoom;
-      width: 786px * $zoom;
+      width: 782px * $zoom;
       height: 105px * $zoom;
       background-image: linear-gradient(
         to bottom,
@@ -84,12 +84,12 @@ $house17windowpane: rgb(17, 21, 26);
           $house17windowpane 0px,
           $house17windowpane 8px * $zoom,
           transparent 8px * $zoom,
-          transparent 33px * $zoom,
-          $house17windowpane 33px * $zoom,
-          $house17windowpane 41px * $zoom,
-          transparent 41px * $zoom,
-          transparent 72px * $zoom,
-          $house17windowpane 72px * $zoom,
+          transparent 35px * $zoom,
+          $house17windowpane 35px * $zoom,
+          $house17windowpane 44px * $zoom,
+          transparent 44px * $zoom,
+          transparent 70px * $zoom,
+          $house17windowpane 70px * $zoom,
           $house17windowpane 75px * $zoom,
           transparent 75px * $zoom,
           transparent 102px * $zoom,
@@ -115,25 +115,25 @@ $house17windowpane: rgb(17, 21, 26);
       &:nth-child(4),
       &:nth-child(5),
       &:nth-child(6) {
-        top: 8px;
+        top: 8px * $zoom;
       }
       &:nth-child(1) {
-        left: 45px;
+        left: 45px * $zoom;
       }
       &:nth-child(2) {
-        left: 167px;
+        left: 167px * $zoom;
       }
       &:nth-child(3) {
-        left: 287px;
+        left: 287px * $zoom;
       }
       &:nth-child(4) {
-        left: 405px;
+        left: 405px * $zoom;
       }
       &:nth-child(5) {
-        left: 524px;
+        left: 524px * $zoom;
       }
       &:nth-child(6) {
-        left: 645px;
+        left: 645px * $zoom;
       }
     }
 
@@ -148,5 +148,6 @@ $house17windowpane: rgb(17, 21, 26);
       text-shadow: 2px * $zoom -2px * $zoom 2px * $zoom rgb(245, 102, 106),
         -2px * $zoom 2px * $zoom 2px * $zoom rgb(245, 102, 106), -2px * $zoom 5px * $zoom 5px * $zoom rgb(40, 11, 10);
     }
+    opacity: 100%;
   }
 }

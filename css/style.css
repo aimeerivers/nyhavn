@@ -69,7 +69,7 @@ body {
 }
 #house17 .roof {
   top: 412px;
-  width: 783px;
+  width: 779px;
   height: 240px;
   border: 3px solid #492a29;
   border-left: 0;
@@ -80,26 +80,27 @@ body {
 }
 #house17 .gutter {
   top: 655px;
-  width: 786px;
+  width: 782px;
   height: 9px;
   background-image: linear-gradient(to bottom, #454545, #131216);
 }
 #house17 .wall {
   top: 679px;
-  width: 786px;
+  width: 782px;
   height: 634px;
   background-color: #b48c49;
+  opacity: 100%;
 }
 #house17 .wall::before {
   top: -15px;
-  width: 786px;
+  width: 782px;
   height: 13px;
   background-image: linear-gradient(to bottom, #2f2d2c 0%, #565757 30%, #8e8d88 50%, #9c959d 100%);
   border-bottom: 2px solid #433323;
 }
 #house17 .wall::after {
   top: 634px;
-  width: 786px;
+  width: 782px;
   height: 105px;
   background-image: linear-gradient(to bottom, #2a1c12 0%, #412f33 10%, #2f2127 10%, #2f2127 12%, #33262c 12%, #33262c 100%);
 }
@@ -107,7 +108,7 @@ body {
   width: 79px;
   height: 110px;
   background-color: #5b7d90;
-  background-image: linear-gradient(to bottom, #11151a 0px, #11151a 8px, transparent 8px, transparent 33px, #11151a 33px, #11151a 41px, transparent 41px, transparent 72px, #11151a 72px, #11151a 75px, transparent 75px, transparent 102px, #11151a 102px, #11151a), linear-gradient(to right, #11151a 0px, #11151a 8px, transparent 8px, transparent 36px, #11151a 36px, #11151a 44px, transparent 44px, transparent 71px, #11151a 71px, #11151a);
+  background-image: linear-gradient(to bottom, #11151a 0px, #11151a 8px, transparent 8px, transparent 35px, #11151a 35px, #11151a 44px, transparent 44px, transparent 70px, #11151a 70px, #11151a 75px, transparent 75px, transparent 102px, #11151a 102px, #11151a), linear-gradient(to right, #11151a 0px, #11151a 8px, transparent 8px, transparent 36px, #11151a 36px, #11151a 44px, transparent 44px, transparent 71px, #11151a 71px, #11151a);
 }
 #house17 .wall .window:nth-child(1), #house17 .wall .window:nth-child(2), #house17 .wall .window:nth-child(3), #house17 .wall .window:nth-child(4), #house17 .wall .window:nth-child(5), #house17 .wall .window:nth-child(6) {
   top: 8px;
