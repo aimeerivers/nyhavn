@@ -1,0 +1,44 @@
+$cloudColor: rgba(255, 255, 255, 0.95);
+$distanceBetweenClouds: 780px;
+$cloudBlur: 20px * $zoom;
+
+.clouds {
+  width: 50px * $zoom;
+  height: 50px * $zoom;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: none;
+  border-radius: 50%;
+  $value: ();
+  @for $i from 1 through $numberOfHouses {
+    $value: append($value, $cloudColor (360px + $distanceBetweenClouds * ($i - 1)) * $zoom 210px * $zoom $cloudBlur 15px * $zoom, comma);
+    $value: append($value, $cloudColor (100px + $distanceBetweenClouds * ($i - 1)) * $zoom 200px * $zoom $cloudBlur 75px * $zoom, comma);
+    $value: append($value, $cloudColor (150px + $distanceBetweenClouds * ($i - 1)) * $zoom 100px * $zoom $cloudBlur 10px * $zoom, comma);
+    $value: append($value, $cloudColor (170px + $distanceBetweenClouds * ($i - 1)) * $zoom 130px * $zoom $cloudBlur 1px * $zoom, comma);
+    $value: append($value, $cloudColor (245px + $distanceBetweenClouds * ($i - 1)) * $zoom 260px * $zoom $cloudBlur 75px * $zoom, comma);
+    $value: append($value, $cloudColor (310px + $distanceBetweenClouds * ($i - 1)) * $zoom 160px * $zoom $cloudBlur 35px * $zoom, comma);
+    $value: append($value, $cloudColor (390px + $distanceBetweenClouds * ($i - 1)) * $zoom 130px * $zoom $cloudBlur 35px * $zoom, comma);
+    $value: append($value, $cloudColor (450px + $distanceBetweenClouds * ($i - 1)) * $zoom 180px * $zoom $cloudBlur 50px * $zoom, comma);
+    $value: append($value, $cloudColor (570px + $distanceBetweenClouds * ($i - 1)) * $zoom 220px * $zoom $cloudBlur 12px * $zoom, comma);
+    $value: append($value, $cloudColor (650px + $distanceBetweenClouds * ($i - 1)) * $zoom 175px * $zoom $cloudBlur 50px * $zoom, comma);
+    $value: append($value, $cloudColor (700px + $distanceBetweenClouds * ($i - 1)) * $zoom 130px * $zoom $cloudBlur 35px * $zoom, comma);
+    $value: append($value, $cloudColor (560px + $distanceBetweenClouds * ($i - 1)) * $zoom 125px * $zoom $cloudBlur 1px * $zoom, comma);
+  }
+  box-shadow: $value;
+  animation: cloudmove 120s linear infinite;
+}
+
+@keyframes cloudmove {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-250px * $zoom);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

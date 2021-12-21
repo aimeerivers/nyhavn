@@ -7,9 +7,32 @@ body {
   margin-left: 25px;
   height: 744px;
   font-weight: bold;
-  width: 807.5px;
+  width: 802.5px;
 }
 
+.clouds {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: none;
+  border-radius: 50%;
+  box-shadow: rgba(255, 255, 255, 0.95) 180px 105px 10px 7.5px, rgba(255, 255, 255, 0.95) 50px 100px 10px 37.5px, rgba(255, 255, 255, 0.95) 75px 50px 10px 5px, rgba(255, 255, 255, 0.95) 85px 65px 10px 0.5px, rgba(255, 255, 255, 0.95) 122.5px 130px 10px 37.5px, rgba(255, 255, 255, 0.95) 155px 80px 10px 17.5px, rgba(255, 255, 255, 0.95) 195px 65px 10px 17.5px, rgba(255, 255, 255, 0.95) 225px 90px 10px 25px, rgba(255, 255, 255, 0.95) 285px 110px 10px 6px, rgba(255, 255, 255, 0.95) 325px 87.5px 10px 25px, rgba(255, 255, 255, 0.95) 350px 65px 10px 17.5px, rgba(255, 255, 255, 0.95) 280px 62.5px 10px 0.5px;
+  animation: cloudmove 120s linear infinite;
+}
+
+@keyframes cloudmove {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-125px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 .house {
   height: 100%;
   float: left;
